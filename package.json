@@ -1,0 +1,23 @@
+{
+  "name": "dash-boot",
+  "version": "1.0.0",
+  "description": "Capture the event of the dash-button and send WoL packet to PC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fanosta/dash-boot.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fanosta/dash-boot/issues"
+  },
+  "homepage": "https://github.com/fanosta/dash-boot#readme",
+  "dependencies": {
+    "node-dash-button": "^0.6.1",
+    "wake_on_lan": "0.0.4"
+  }
+}
